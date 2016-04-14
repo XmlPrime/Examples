@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>XInclude Example</title>
+  </head>
+  <body>
+    <h1>XInclude Example</h1>
+    <p>This is a simple example of XML Inclusion (XInclude).</p>
+
+    <include xmlns="http://www.w3.org/2001/XInclude"
+             href="panel.xml" />
+      
+  </body>
+</html>
