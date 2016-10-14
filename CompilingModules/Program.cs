@@ -64,7 +64,7 @@ namespace XmlPrime.Samples.CompilingModules
 			if (query != null)
 			{
 			    var dynamicContext = new DynamicContextSettings();
-				dynamicContext.Parameters.Add(new XmlQualifiedName("external", "urn:module"), 5);
+				dynamicContext.Parameters.Add(new XmlQualifiedName("external", "urn:module"),(double) 5);
 
 				// Serialize the results of executing the query to the console.
 				query.Serialize(Console.Out, dynamicContext);

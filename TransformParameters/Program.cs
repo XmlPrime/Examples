@@ -61,7 +61,7 @@ namespace XmlPrime.Samples.Transform
 
             // We use the Parameters member of the DynamicContextSettings object to pass the values of parameters
             // declared in the transformation.
-            settings.Parameters.Add(new XmlQualifiedName("price"), 60);
+            settings.Parameters.Add(new XmlQualifiedName("price"),(double) 60);
 
             // We will use the ApplyTemplates method to initiate a transformation by applying templates 
             // in the default mode and serializing the primary result document to a stream.
